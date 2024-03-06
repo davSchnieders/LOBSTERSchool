@@ -5,9 +5,5 @@ basisfunctions Fe 3d 4s 4p
 basisfunctions Ni 3d 4s 4p
 
 cohpbetween atom 1 and atom 2
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
+
+loadProjectionFromFile

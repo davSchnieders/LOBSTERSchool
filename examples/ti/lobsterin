@@ -4,9 +4,5 @@ basisSet Bunge
 basisfunctions ti 3s 4s 3p 4p 3d
 
 cohpbetween atom 1 and atom 2
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
-saveprojectiontofile
+
+loadProjectionFromFile

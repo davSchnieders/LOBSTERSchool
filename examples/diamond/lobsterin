@@ -5,5 +5,4 @@ includeOrbitals sp
 
 cohpbetween atom 1 and atom 2
 
-saveprojectiontofile
-saveprojectiontofile
+loadProjectionFromFile
