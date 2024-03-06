@@ -1,0 +1,12 @@
+cohpstartenergy -22
+cohpendenergy 6
+basisSet Bunge
+includeOrbitals sp
+
+cohpgenerator from 1.0 to 1.5
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile

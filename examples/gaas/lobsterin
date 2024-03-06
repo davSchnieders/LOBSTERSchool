@@ -1,0 +1,17 @@
+COHPstartEnergy  -14
+COHPendEnergy	  6
+basisSet Bunge
+basisfunctions Ga 4s 4p 3d
+basisfunctions As 4s 4p
+
+cohpbetween atom 1 and atom 2
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
+saveprojectiontofile
