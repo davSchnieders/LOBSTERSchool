@@ -1,0 +1,15 @@
+
+    cohpstartenergy -20
+    cohpendenergy 20
+    cohpsteps 400
+
+    saveprojectiontofile
+    !loadprojectionfromfile
+    skipmadelungenergy
+
+    basisset pbevaspfit2015
+
+    basisfunctions Ge 4S 4P
+    basisfunctions Te 5S 5P
+
+    cobibetween atom 7 atom 3 atom 7 cell 1 0 0
