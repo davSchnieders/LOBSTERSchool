@@ -1,0 +1,47 @@
+&CONTROL
+   calculation      = 'scf'
+   wf_collect       = .true.
+   outdir           = './'
+   prefix           = 'Ge4Te4'
+   pseudo_dir       = './'
+/
+&SYSTEM
+   nbnd             = 32
+   ecutwfc          = 60
+   nosym            = .true.
+   nspin            = 1
+   ntyp             = 2
+   nat              = 8
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 100
+   conv_thr         = 1e-10
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Ge 72.63 Ge.pbe-n.UPF
+Te 127.6 Te.pbe-n.UPF
+
+K_POINTS automatic
+7 7 7  0 0 0
+
+CELL_PARAMETERS angstrom
+5.78300000000000 0.00000000000000 0.00000000000000
+0.00000000000000 5.78300000000000 0.00000000000000
+0.00000000000000 0.00000000000000 5.78300000000000
+
+ATOMIC_POSITIONS crystal
+Ge 0.5000000000 0.0000000000 0.5000000000 
+Ge 0.0000000000 0.5000000000 0.5000000000 
+Ge 0.5000000000 0.5000000000 0.0000000000 
+Ge 0.0000000000 0.0000000000 0.0000000000 
+Te 0.5000000000 0.5000000000 0.5000000000 
+Te 0.5000000000 0.0000000000 0.0000000000 
+Te 0.0000000000 0.5000000000 0.0000000000 
+Te 0.0000000000 0.0000000000 0.5000000000 
+
