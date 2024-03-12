@@ -1,18 +1,1 @@
-COHPstartEnergy  -14
-COHPendEnergy	  6
-
-saveprojectiontofile
 loadprojectionfromfile
-
-basisSet Bunge
-basisfunctions Ga 4s 4p 3d
-basisfunctions As 4s 4p
-
-skipdos
-skipcoop
-skipcohp
-skipPopulationAnalysis
-
-createFatband Ga 4s
-! createFatband As 4p
-

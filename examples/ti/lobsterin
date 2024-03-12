@@ -1,8 +1,1 @@
-COHPstartEnergy  -6
-COHPendEnergy	  6
-basisSet Bunge
-basisfunctions ti 3s 4s 3p 4p 3d
-
-cohpbetween atom 1 and atom 2
-
-loadProjectionFromFile
+loadprojectionfromfile

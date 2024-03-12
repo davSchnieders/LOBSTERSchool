@@ -1,8 +1,1 @@
-COHPstartEnergy -22
-COHPendEnergy 6
-basisSet Bunge
-includeOrbitals sp
-
-cohpgenerator from 1.4 to 1.5
-
-loadProjectionFromFile
+loadprojectionfromfile

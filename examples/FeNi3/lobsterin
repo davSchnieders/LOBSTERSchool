@@ -1,9 +1,1 @@
-COHPstartEnergy  -10
-COHPendEnergy	  6
-usebasisset pbeVaspFit2015
-basisfunctions Fe 3d 4s 4p
-basisfunctions Ni 3d 4s 4p
-
-cohpbetween atom 1 and atom 2
-
-loadProjectionFromFile
+loadprojectionfromfile
