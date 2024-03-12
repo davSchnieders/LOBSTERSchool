@@ -1,0 +1,33 @@
+&control
+ calculation = 'scf'
+ restart_mode='from_scratch',
+ prefix='FeNi3',
+ pseudo_dir = '.',
+ outdir='.'
+ wf_collect = .true.
+ /
+&system
+ibrav= 0, A=3.555, nat= 4, ntyp=2
+ecutwfc = 64.0, ecutrho = 782.0,
+nbnd = 60
+nspin=2,
+starting_magnetization(1)= 0.7,
+occupations='smearing', smearing='marzari-vanderbilt', degauss=0.05
+nosym = .true., noinv = .true.
+ /
+&electrons
+ /
+CELL_PARAMETERS
+  1.00000 0.00000 0.00000
+  0.00000 1.00000 0.00000
+  0.00000 0.00000 1.00000
+ATOMIC_SPECIES
+ Fe 55.850 Fe.pbesol-n-kjpaw_psl.0.2.4.UPF
+ Ni 58.693 Ni.pbesol-n-kjpaw_psl.0.1.UPF
+ATOMIC_POSITIONS {crystal}
+ Fe 0.00000 0.00000 0.00000
+ Ni 0.50000 0.50000 0.00000
+ Ni 0.50000 0.00000 0.50000
+ Ni 0.00000 0.50000 0.50000
+K_POINTS {automatic}
+ 5 5 5 0 0 0
