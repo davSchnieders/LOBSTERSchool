@@ -1,0 +1,13 @@
+LOBSTER v5.0.0 (g++ 9.3.0)
+Copyright (C) 2023 by Chair of Solid-State and Quantum Chemistry, RWTH Aachen.
+All rights reserved. Contributions by S. Maintz, V. L. Deringer, M. Esser, R. Nelson, C. Ertural, P. C. Mueller, M. Pauls, D. Schnieders, A. L. Tchougreeff, and R. Dronskowski
+starting on host LAPTOP-QUR5F2B6 on 2024-03-14 at 10:51:55 CET using 12 threads
+loading projection from projectionData.lobster...
+setting up CO interactions... found 1859 interactions.
+abs. charge spilling:   1.94%
+
+NOTE: The spilling is a measure for the relocation, *not* the absence of electrons.
+number of electrons recovered by projection: 1080.0002 of 1080
+
+calculating pDOS... using Gaussian smearing integration (sigma=0.2eV)
+writing DOSCAR.lobster...

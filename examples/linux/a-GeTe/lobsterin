@@ -1,1 +1,10 @@
 loadprojectionfromfile
+cohpgenerator from 1 to 5
+
+cohpstartenergy -1
+cohpendenergy 1
+cohpsteps 2
+
+skipcoop
+skipmadelungenergy
+
