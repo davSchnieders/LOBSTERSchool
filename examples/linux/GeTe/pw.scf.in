@@ -7,7 +7,7 @@
 /
 &SYSTEM
    nbnd             = 32
-   ecutwfc          = 60
+   ecutwfc          = 80
    nosym            = .true.
    nspin            = 1
    ntyp             = 2
@@ -28,7 +28,7 @@ Ge 72.63 Ge.pbe-n.UPF
 Te 127.6 Te.pbe-n.UPF
 
 K_POINTS automatic
-7 7 7  0 0 0
+8 8 8  0 0 0
 
 CELL_PARAMETERS angstrom
 5.78300000000000 0.00000000000000 0.00000000000000
