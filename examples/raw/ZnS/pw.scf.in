@@ -1,0 +1,36 @@
+&CONTROL
+  calculation = 'scf'
+  outdir = './'
+  prefix = 'zns'
+  pseudo_dir = './'
+  wf_collect = .true.
+/
+&SYSTEM
+  ecutwfc =   70
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+  nbnd = 52
+  nosym = .true.
+/
+&ELECTRONS
+/
+ATOMIC_SPECIES
+Zn      10.811 Zn.pbesol-dnl-kjpaw_psl.1.0.0.UPF
+S       14.0067 S.pbesol-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+Zn            0.0000000000       0.0000000000       0.0000000000
+Zn            0.0000000000       0.5000000000       0.5000000000
+Zn            0.5000000000       0.0000000000       0.5000000000
+Zn            0.5000000000       0.5000000000       0.0000000000
+S            0.7500000000       0.7500000000       0.2500000000
+S            0.7500000000       0.2500000000       0.7500000000
+S            0.2500000000       0.7500000000       0.7500000000
+S            0.2500000000       0.2500000000       0.2500000000
+K_POINTS automatic
+3 3 3 0 0 0 ! To be determined
+CELL_PARAMETERS angstrom
+      5.4109       0.0000000000       0.0000000000
+      0.0000000000       5.4109       0.0000000000
+      0.0000000000       0.0000000000       5.4109
+
