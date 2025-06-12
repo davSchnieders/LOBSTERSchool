@@ -1,0 +1,17 @@
+LOBSTER v5.1.1 (g++ 9.3-win32 20200320)
+Copyright (C) 2024 by Chair of Solid-State and Quantum Chemistry, RWTH Aachen.
+All rights reserved. Contributions by S. Maintz, V. L. Deringer, M. Esser, R. Nelson, C. Ertural, P. C. Mueller, M. Pauls, L. Sann, D. Schnieders, A. L. Tchougreeff, and R. Dronskowski
+starting on host LAPTOP-QUR5F2B6 on 2025-06-12 at 13:05:59 Mitteleuropäische Sommerzeit using 12 threads
+loading projection from projectionData.lobster...
+setting up CO interactions...
+WARNING: You did not specify any COHP pairs in the lobsterin file. As default
+WARNING: I will try to find any pairs between 1.0 and 3.0 A distance,
+WARNING: but that might be wrong. If you want pCOHPs or pCOOPs, change the lobsterin!
+ found 4 interactions.
+abs. charge spilling:   0.96%
+
+NOTE: The spilling is a measure for the relocation, *not* the absence of electrons.
+number of electrons recovered by projection: 120.0000 of 120
+
+calculating pDOS...
+writing DOSCAR.lobster...
