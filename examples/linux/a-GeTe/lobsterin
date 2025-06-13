@@ -4,11 +4,11 @@ cohpgenerator from 1 to 5
 !cohpbetween atom 9 atom 62
 !cohpbetween atom 22 atom 183
 
-cohpstartenergy -1
-cohpendenergy 1
-cohpsteps 2
+#cohpstartenergy -1
+#cohpendenergy 1
+#cohpsteps 2
 
 skipdos
 skipcoop
 skipmadelungenergy
-
+skipcobi
